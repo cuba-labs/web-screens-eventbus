@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+             version="2.0">
+    <persistence-unit name="update-event-bus"
+                      transaction-type="RESOURCE_LOCAL">
+        <class>com.company.demo.entity.Client</class>
+        <class>com.company.demo.entity.Order</class>
+    </persistence-unit>
+</persistence>
